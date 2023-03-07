@@ -32,10 +32,14 @@ The [differential entropy][entropy] for a [beta][beta-distribution] random varia
 
 <!-- <equation class="equation" label="eq:beta_entropy" align="center" raw="h\left( X \right) = \ln(\operatorname{Beta}(\alpha,\beta)) - (\alpha-1)\psi(\alpha) - (\beta-1)\psi(\beta) + (\alpha+\beta-2)\psi(\alpha+\beta)" alt="Differential entropy for a beta distribution."> -->
 
-<div class="equation" align="center" data-raw-text="h\left( X \right) = \ln(\operatorname{Beta}(\alpha,\beta)) - (\alpha-1)\psi(\alpha) - (\beta-1)\psi(\beta) + (\alpha+\beta-2)\psi(\alpha+\beta)" data-equation="eq:beta_entropy">
+```math
+h\left( X \right) = \ln(\operatorname{Beta}(\alpha,\beta)) - (\alpha-1)\psi(\alpha) - (\beta-1)\psi(\beta) + (\alpha+\beta-2)\psi(\alpha+\beta)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="h\left( X \right) = \ln(\operatorname{Beta}(\alpha,\beta)) - (\alpha-1)\psi(\alpha) - (\beta-1)\psi(\beta) + (\alpha+\beta-2)\psi(\alpha+\beta)" data-equation="eq:beta_entropy">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/beta/entropy/docs/img/equation_beta_entropy.svg" alt="Differential entropy for a beta distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -229,7 +233,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
