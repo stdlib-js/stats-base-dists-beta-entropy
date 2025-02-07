@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-21)
+## Unreleased (2025-02-07)
+
+<section class="features">
+
+### Features
+
+-   [`c49b8f2`](https://github.com/stdlib-js/stdlib/commit/c49b8f28e7fc7f6b8c3b3d6905e92d2ae51168e9) - add C implementation for `stats/base/dists/beta/entropy` [(#4039)](https://github.com/stdlib-js/stdlib/pull/4039)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3424](https://github.com/stdlib-js/stdlib/issues/3424)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`c49b8f2`](https://github.com/stdlib-js/stdlib/commit/c49b8f28e7fc7f6b8c3b3d6905e92d2ae51168e9) - **feat:** add C implementation for `stats/base/dists/beta/entropy` [(#4039)](https://github.com/stdlib-js/stdlib/pull/4039) _(by Neeraj Pathak, Philipp Burckhardt)_
 -   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Neeraj Pathak
+-   Philipp Burckhardt
 
 </section>
 
