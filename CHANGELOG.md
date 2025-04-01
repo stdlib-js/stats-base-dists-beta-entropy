@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-04-01)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`001d18c`](https://github.com/stdlib-js/stdlib/commit/001d18c5a1d8b378ed9c1be7d19e5823d311ff67) - **chore:** address commit comments [(#5097)](https://github.com/stdlib-js/stdlib/pull/5097) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`c49b8f2`](https://github.com/stdlib-js/stdlib/commit/c49b8f28e7fc7f6b8c3b3d6905e92d2ae51168e9) - **feat:** add C implementation for `stats/base/dists/beta/entropy` [(#4039)](https://github.com/stdlib-js/stdlib/pull/4039) _(by Neeraj Pathak, Philipp Burckhardt)_
 -   [`9394549`](https://github.com/stdlib-js/stdlib/commit/939454926b745326a5b14bcd0924a0526baa93da) - **bench:** refactor random number generation in `stats/base/dists/beta` [(#4837)](https://github.com/stdlib-js/stdlib/pull/4837) _(by Karan Anand)_
